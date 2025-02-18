@@ -1,8 +1,14 @@
-module aqwari.net/xml
+module github.com/TauzhnianskyiArtem/go-xml
 
-go 1.15
+go 1.22.3
 
 require (
-	golang.org/x/net v0.0.0-20200813134508-3edf25e44fcc
-	golang.org/x/tools v0.0.0-20200821192610-3366bbee4705
+	golang.org/x/net v0.35.0
+	golang.org/x/tools v0.30.0
+)
+
+require (
+	golang.org/x/mod v0.23.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 )
